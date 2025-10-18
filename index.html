@@ -1,314 +1,145 @@
+
 <!DOCTYPE html>
-<html lang=”es”>
+<html lang="es">
 <head>
-    <meta charset=”UTF-8”>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
-    <title>Fuego Noble – Salsas Gourmet</title>
-
-    <style>
-        Body {
-            Font-family: ‘Times New Roman’, Times, serif; 
-            Margin: 0;
-            Background-color: #1ª1a1a; 
-            Color: #f0f0f0; 
-            Line-height: 1.6;
-            Overflow-x: hidden; 
-        }
-
-        H2, h3 {
-            Color: #e0b06b; 
-            Text-align: center;
-            Margin-bottom: 10px;
-            Text-transform: uppercase;
-            Letter-spacing: 2px;
-        }
-        
-        A {
-            Text-decoration: none;
-            Color: #e0b06b;
-        }
-
-        A:hover {
-            Text-decoration: underline;
-            Color: #ffcc99;
-        }
-
-        .header {
-            Text-align: center;
-            Background-color: #000; 
-            Padding: 15px 10px;
-            Border-bottom: 3px solid #e0b06b; 
-            Position: relative;
-        }
-        
-        .header .logo-container img {
-            Max-width: 150px;
-            Height: auto;
-        }
-
-        .container {
-            Padding: 20px;
-            Max-width: 1000px; 
-            Margin: auto;
-        }
-
-        .master-banner {
-            Background: url(https://drive.google.com/thumbnail?id=1W68qAP6aIGpmJKCLBU_p8JYVVwA9dA-p) no-repeat center center;
-            Background-size: cover;
-            Min-height: 400px;
-            Display: flex;
-            Flex-direction: column;
-            Justify-content: center;
-            Align-items: center;
-            Text-align: center;
-            Padding: 40px 20px;
-            Position: relative;
-        }
-        
-        .master-banner::before {
-            Content: ‘’;
-            Position: absolute;
-            Top: 0;
-            Left: 0;
-            Right: 0;
-            Bottom: 0;
-            Background-color: rgba(0, 0, 0, 0.65);
-        }
-        
-        .master-banner h1, .master-banner p {
-            Position: relative;
-            z-index: 1;
-            color: white;
-        }
-        
-        .master-banner .cta-button {
-            Position: relative;
-            z-index: 1;
-            padding: 12px 30px;
-            background-color: #e0b06b;
-            color: #1ª1a1a;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-top: 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .master-banner .cta-button:hover {
-            Background-color: #ffcc99;
-        }
-
-        .video-container {
-            Position: relative;
-            Padding-bottom: 56.25%; 
-            Height: 0;
-            Overflow: hidden;
-            Margin: 20px auto 40px auto; 
-            Max-width: 800px; 
-            Box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-        }
-
-        .responsive-video {
-            Position: absolute;
-            Top: 0;
-            Left: 0;
-            Width: 100%;
-            Height: 100%;
-            Border: none;
-        }
-
-        .intro-text { 
-            Text-align: center; 
-            Margin-bottom: 30px; 
-            Color: #ccc; 
-        }
-
-        .product-categories { 
-            Margin-bottom: 40px; 
-        }
-
-        .category-header { 
-            Background-color: #333; 
-            Color: #e0b06b; 
-            Text-align: center; 
-            Padding: 15px; 
-            Margin-bottom: 15px; 
-            Font-size: 1.4rem; 
-            Text-transform: uppercase; 
-            Letter-spacing: 3px; 
-        }
-        
-        .product-grid {
-            Display: flex;
-            Justify-content: space-around;
-            Flex-wrap: wrap;
-            Gap: 20px;
-        }
-
-        .product-card {
-            Background-color: #2ª2a2a;
-            Border: 1px solid #444;
-            Border-radius: 5px;
-            Text-align: center;
-            Padding: 15px;
-            Width: 280px; 
-            Transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .product-card:hover {
-            Transform: translateY(-5px);
-            Box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-        }
-
-        .product-card img {
-            Width: 80%;
-            Height: auto;
-            Border-radius: 5px;
-        }
-
-        .footer {
-            Text-align: center;
-            Padding: 20px;
-            Background-color: #000;
-            Color: #888;
-            Border-top: 3px solid #e0b06b;
-            Font-size: 0.9rem;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuego Noble - Salsas Gourmet</title>
 </head>
-<body>
 
-    <header class=”header”>
-        <div class=”logo-container”>
-            <img src=https://drive.google.com/thumbnail?id=1P7QkvHCHz8NUIpC-OsXfdsKpJPutepDn alt=”Logotipo Fuego Noble”> 
+<body style="font-family:'Times New Roman', Times, serif; margin: 0; background-color: #1a1a1a; color: #f0f0f0; line-height: 1.6; overflow-x: hidden;">
+
+    <header style="text-align: center; background-color: #000; padding: 15px 10px; border-bottom: 3px solid #e0b06b; position: relative;">
+        <div style="max-width: 150px; height: auto; margin: 0 auto;">
+            <img src="https://drive.google.com/thumbnail?id=1P7QkvHCHz8NUIpC-OsXfdsKpJPutepDn" alt="Logotipo Fuego Noble" style="max-width: 100%; height: auto;">
         </div>
-        <p>Salsas Gourmet</p>
+        <p style="margin: 0;">Salsas Gourmet</p>
     </header>
     
-    <div class=”master-banner”>
-        <h1>FUEGO NOBLE El Arte del Sazón con Elegancia</h1>
-        <p>Descubre el legado de un sabor inigualable.</p>
-        <a href=”Paginanuestrassalsas.html” class=”cta-button”>Ver nuestras salsas</a>
+    <div style="background: url('https://drive.google.com/thumbnail?id=1W68qAP6aIGpmJKCLBU_p8JYVVwA9dA-p') no-repeat center center; background-size: cover; min-height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px 20px; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.65);"></div>
+
+        <h1 style="position: relative; z-index: 1; color: white; text-transform: uppercase; letter-spacing: 2px;">FUEGO NOBLE El Arte del Sazón con Elegancia</h1>
+        <p style="position: relative; z-index: 1; color: white;">Descubre el legado de un sabor inigualable.</p>
+        <a href="Paginanuestrassalsas.html" style="position: relative; z-index: 1; padding: 12px 30px; background-color: #e0b06b; color: #1a1a1a; border: none; border-radius: 5px; font-size: 1.1rem; font-weight: bold; margin-top: 20px; cursor: pointer; transition: background-color 0.3s; text-decoration: none;">Ver nuestras salsas</a>
     </div>
 
-    <div class=”container”>
-            <h2>Nuestra Familia de Productos</h2>
-            <p class=”intro-text”>
-                ¡Deléitate con las salsas gourmet Fuego Noble,acompañado de un buen filete un legado que nos ha acompañado en nuestra mesa por tres generaciones!
+    <div style="padding: 20px; max-width: 1000px; margin: auto;">
+        <h2 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Nuestra Familia de Productos</h2>
+        <p style="text-align: center; margin-bottom: 30px; color: #ccc;">
+            ¡Deléitate con las salsas gourmet Fuego Noble,acompañado de un buen filete un legado que nos ha acompañado en nuestra mesa por tres generaciones!
+        </p>
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px auto 40px auto; max-width: 800px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);">
+            <iframe 
+                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                 src="https://www.youtube.com/embed/pMf6Ozgu1b4" 
+                 title="Video de Salsas Fuego Noble" 
+                 frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen
+             ></iframe>
+         </div>
+
+        <section style="background-color:#1a1a1a; color:#e6e6e6; padding:40px 20px; text-align:center;">
+            <h2 style="color:#c99a55; font-size:28px; letter-spacing:3px; text-transform:uppercase; margin-bottom:16px;">
+                INGREDIENTES ARTESANALES
+            </h2>
+            <p style="max-width:800px; margin:0 auto 22px; line-height:1.6; font-size:16px;">
+                Seleccionamos chiles, especias y técnicas tradicionales para crear salsas con carácter propio.
+                Sin conservadores, con ingredientes reales y mucha paciencia: el sabor es la recompensa.
             </p>
-            
-           <div class=”video-container”>
-               <iframe 
-                    Class=”responsive-video”
-                    Src=https://www.youtube.com/embed/pMf6Ozgu1b4 
-                    Title=”Video de Salsas Fuego Noble” 
-                    Frameborder=”0” 
-                    Allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture” 
-                    Allowfullscreen
-                ></iframe>
-            </div>
 
-            <section style=”background-color:#1ª1a1a; color:#e6e6e6; padding:40px 20px; text-align:center; font-family:Arial, sans-serif;”>
-                <h2 style=”color:#c99a55; font-size:28px; letter-spacing:3px; text-transform:uppercase; margin-bottom:16px;”>
-                    INGREDIENTES ARTESANALES
-                </h2>
-                <p style=”max-width:800px; margin:0 auto 22px; line-height:1.6; font-size:16px;”>
-                    Seleccionamos chiles, especias y técnicas tradicionales para crear salsas con carácter propio.
-                    Sin conservadores, con ingredientes reales y mucha paciencia: el sabor es la recompensa.
-                </p>
+            <p style="margin:6px 0;"> Chiles seleccionados: habanero, chipotle y más.</p>
+            <p style="margin:6px 0;"> Especias naturales para un sabor auténtico.</p>
+            <p style="margin:6px 0;"> Recetas familiares que conservan la tradición.</p>
 
-                <p style=”margin:6px 0;”> Chiles seleccionados: habanero, chipotle y más.</p>
-                <p style=”margin:6px 0;”> Especias naturales para un sabor auténtico.</p>
-                <p style=”margin:6px 0;”> Recetas familiares que conservan la tradición.</p>
-
-                <img src=https://drive.google.com/thumbnail?id=1vcRlLCUD9rqJFh8ih_1B3NIGcptieUFW
-                     Alt=”Chiles y especias sobre mesa”
-                     Style=”width:320px; max-width:100%; border-radius:8px; box-shadow:0 10px 30px rgba(0,0,0,0.6); background:#2b2b2b; padding:8px;”>
-            </section>
-         <a href=”Quienessomos.html” class=”cta-button”>Quienes somos?<<= Da click</a>
-
-            <div class=”product-categories”>
-                <div class=”category-header”>Picor extra picante | Pepper X</div>
-                <div class=”product-grid”>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1re-hl4fio5zMHH0T6UtDfphhxDwYC0KK alt=”Salsa Diablo habanero”>
-                        <h3>Diablo habanero</h3>
-                        <p>Sabor endiablante habanero y especias.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1dKMXwdTE57d49nNVhwkVVxu2vVbxyCcR alt=”Salsa habanero tocino”>
-                        <h3>Tocino Habanero</h3>
-                        <p>Sabor Picante y salado intensamente ahumado.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1HvSCxNx6GJ-yk5mueScKVfkHKGH0u6z0 alt=”Salsa Piquin & Pepperx”>
-                        <h3>Piquin & Pepperx</h3>
-                        <p>Un estallido de fuego y sabor envuelto en notas ahumadas y un toque dulce.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class=”product-categories”>
-                <div class=”category-header”>Picor Medio | Salsas Tostadas & más</div>
-                <div class=”product-grid”>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1SRvIDnGTnRo2rBKbNWkORBMSNVMHqTBh alt=”Salsa Tostada Imperial”>
-                        <h3>Tostada Imperial</h3>
-                        <p>Sabor ahumado y profundo con chile morita.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1ku6slXifmn3-4RbkAk0l-Uf3MiUPDYR_ alt=”Salsa Clásica Noble”>
-                        <h3>Clásica Noble</h3>
-                        <p>El balance perfecto de chile de árbol y especias.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1GhU8vY9evD1BaqvgkOjK34U0G3jk7_JY alt=”Salsa de Mango Habanero”>
-                        <h3>Mango Habanero</h3>
-                        <p>Dulce y acidita, con un toque tropical.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class=”product-categories”>
-                <div class=”category-header”>Picor Bajo | Salsas Frutales & más</div>
-                <div class=”product-grid”>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1dK9vWHbAl4dJYg8sc5d1mvxs7Yx8-oeP alt=”Salsa de chimicurri noble”>
-                        <h3>Chimicurri Noble</h3>
-                        <p>Con especias y sabor herbal, un clásico macha.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1p4pR_uB_A1LfBEPRNNbHmQjmDZsxvEsr alt=”Salsa Fresa Chipotle”>
-                        <h3>Fresa Chipotle</h3>
-                        <p>Inesperada combinación de frescura y humo.</p>
-                    </div>
-                    <div class=”product-card”>
-                        <img src=https://drive.google.com/thumbnail?id=1bgrwhMUcKQXXmj__KCAgaOB219hpKHfh alt=”Salsa Jamaica Tamarindo”>
-                        <h3>Jamaica & Tamarindo</h3>
-                        <p>Notas florales y ácidas con un picor ligero.</p>
-                    </div>
-                </div>
-            </div>
-
+            <img src="https://drive.google.com/thumbnail?id=1vcRlLCUD9rqJFh8ih_1B3NIGcptieUFW"
+                 alt="Chiles y especias sobre mesa"
+                 style="width:320px; max-width:100%; border-radius:8px; box-shadow:0 10px 30px rgba(0,0,0,0.6); background:#2b2b2b; padding:8px;">
         </section>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="Quienessomos.html" style="background-color: #e0b06b; color: #1a1a1a; padding: 12px 30px; border-radius: 5px; font-weight: bold; text-decoration: none; display: inline-block;">Quienes somos? <<= Da click</a>
+        </div>
+
+
+        <div style="margin-top: 40px;">
+            <div style="background-color: #333; color: #e0b06b; text-align: center; padding: 15px; margin-bottom: 15px; font-size: 1.4rem; text-transform: uppercase; letter-spacing: 3px;">Picor extra picante | Pepper X</div>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1re-hl4fio5zMHH0T6UtDfphhxDwYC0KK" alt="Salsa Diablo habanero" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Diablo habanero</h3>
+                    <p>Sabor endiablante habanero y especias.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1dKMXwdTE57d49nNVhwkVWxu2vVbxyCcR" alt="Salsa habanero tocino" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Tocino Habanero</h3>
+                    <p>Sabor Picante y salado intensamente ahumado.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1HvSCxNx6GJ-yk5mueScKVfkHKGH0u6z0" alt="Salsa Piquin & Pepperx" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Piquin & Pepperx</h3>
+                    <p>Un estallido de fuego y sabor envuelto en notas ahumadas y un toque dulce.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <div style="background-color: #333; color: #e0b06b; text-align: center; padding: 15px; margin-bottom: 15px; font-size: 1.4rem; text-transform: uppercase; letter-spacing: 3px;">Picor Medio | Salsas Tostadas & más</div>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1SRvIDnGTnRo2rBKbNWkORBMSNVMHqTBh" alt="Salsa Tostada Imperial" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Tostada Imperial</h3>
+                    <p>Sabor ahumado y profundo con chile morita.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1ku6slXifmn3-4RbkAk0l-Uf3MiUPDYR_" alt="Salsa Clásica Noble" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Clásica Noble</h3>
+                    <p>El balance perfecto de chile de árbol y especias.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1GhU8vY9evD1BaqvgkOjK34U0G3jk7_JY" alt="Salsa de Mango Habanero" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Mango Habanero</h3>
+                    <p>Dulce y acidita, con un toque tropical.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; margin-bottom: 40px;">
+            <div style="background-color: #333; color: #e0b06b; text-align: center; padding: 15px; margin-bottom: 15px; font-size: 1.4rem; text-transform: uppercase; letter-spacing: 3px;">Picor Bajo | Salsas Frutales & más</div>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1dK9vWHbAl4dJYg8sc5d1mvxs7Yx8-oeP" alt="Salsa de chimicurri noble" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Chimicurri Noble</h3>
+                    <p>Con especias y sabor herbal, un clásico macha.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1p4pR_uB_A1LfBEPRNNbHmQjmDZsxvEsr" alt="Salsa Fresa Chipotle" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Fresa Chipotle</h3>
+                    <p>Inesperada combinación de frescura y humo.</p>
+                </div>
+                <div style="background-color: #2a2a2a; border: 1px solid #444; border-radius: 5px; text-align: center; padding: 15px; width: 280px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <img src="https://drive.google.com/thumbnail?id=1bgrwhMUcKQXXmj__KCAgaOB219hpKHfh" alt="Salsa Jamaica Tamarindo" style="width: 80%; height: auto; border-radius: 5px;">
+                    <h3 style="color: #e0b06b; text-align: center; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">Jamaica & Tamarindo</h3>
+                    <p>Notas florales y ácidas con un picor ligero.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     
-    <footer class=”footer”>
+    <footer style="text-align: center; padding: 20px; background-color: #000; color: #888; border-top: 3px solid #e0b06b; font-size: 0.9rem;">
         © 2024 Fuego Noble. Todos los derechos reservados. | Envíos a todo México y USA | Contacto: info@fuegonoble.com
+        <div style="margin-top: 10px;">
+            <p style="margin: 5px 0; color: #f0f0f0;">Síguenos en nuestras redes sociales:</p>
+            <a href="https://www.facebook.com/share/v/1BeLeKb9Do/" target="_blank" style="text-decoration: none; color: #e0b06b; margin: 0 5px;">Facebook</a> |
+            <a href="https://www.instagram.com/reel/DBtnBE-Ovrc/?igsh=YzljYTk1ODg3Zg==" target="_blank" style="text-decoration: none; color: #e0b06b; margin: 0 5px;">Instagram</a> |
+            <a href="https://wa.me/5210000000000" target="_blank" style="text-decoration: none; color: #e0b06b; margin: 0 5px;">WhatsApp</a> |
+            <a href="https://vt.tiktok.com/ZSUCLVUFg/" target="_blank" style="text-decoration: none; color: #e0b06b; margin: 0 5px;">TikTok</a>
+        </div>
     </footer>
-        
-<div>
-        <p>Síguenos en nuestras redes sociales:</p>
-  <a href=https://www.facebook.com/share/v/1BeLeKb9Do/ target=”_blank”>Facebook</a> |
-  <a href=https://www.instagram.com/reel/DBtnBE-Ovrc/?igsh=YzljYTk1ODg3Zg== target=”_blank”>Instagram</a> |
-  <a href=https://wa.me/5210000000000 target=”_blank”>WhatsApp</a> |
-  <a href=https://vt.tiktok.com/ZSUCLVUFg/ target=”_blank”>TikTok</a>
-</div>
 
 </body>
 </html>
-
 
